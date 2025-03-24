@@ -86,7 +86,7 @@ const FormComponent = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit} className="space-y-3 2xl:space-y-18 2xl:text-2xl  text-xs sm:text-sm md:text-base lg:text-base">
+      <form onSubmit={handleSubmit} className="space-y-3 3xl:space-y-18 3xl:text-2xl  text-xs sm:text-sm md:text-base lg:text-base">
         <input
           type="text"
           id="full-name"
@@ -203,14 +203,14 @@ const ContactSection = () => {
    "bg-[#4B5685] text-black"
   }`}
 >
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-2 2xl:py-32  ">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-2 3xl:py-32  ">
     
     {/* Col 1 */}
     <div className="justify-start items-center px-0 sm:px-4 md:px-10 lg:px-10  min-h-[400px]  ">
-    <h1 className="text-md sm:text-xl md:text-3xl 2xl:text-4xl font-medium  text-white my-4">Get Started</h1>
-    <p className="my-4 text-xl 2xl:text-2xl text-white">Accelerate your growth overseas and join one of the leading companies to work </p>
+    <h1 className="text-md sm:text-xl md:text-3xl 3xl:text-4xl font-medium  text-white my-4">Get Started</h1>
+    <p className="my-4 text-xl 3xl:text-2xl text-white">Accelerate your growth overseas and join one of the leading companies to work </p>
 
-    <div className="bg-gray-100 mt-20 w-full h-[53%] 2xl:h-[70%] p-3 rounded-xl shadow-[-4px_4px_12px_rgba(0,0,0,0.25)]">
+    <div className="bg-gray-100 mt-20 w-full h-[53%] 3xl:h-[70%] p-3 rounded-xl shadow-[-4px_4px_12px_rgba(0,0,0,0.25)]">
           <h1 className="text-md sm:text-xl md:text-2xl lg:text-2xl font-medium mb-4 self-start ">Directions</h1>
           <MyLeafletMap/>
         </div>
@@ -221,7 +221,7 @@ const ContactSection = () => {
       <div
         className={`${
          "bg-white "
-        }  mt-6 md:mt-0 w-[100%] sm:w-[95%] md:w-[85%]  2xl:h-[700px] px-6 md:px-10 lg:px-10 py-10 rounded-xl`}
+        }  mt-6 md:mt-0 w-[100%] sm:w-[95%] md:w-[85%]  3xl:h-[700px] px-6 md:px-10 lg:px-10 py-10 rounded-xl`}
       >
         <h1
           className={`text-md sm:text-xl md:text-2xl lg:text-2xl font-medium ${

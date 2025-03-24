@@ -71,7 +71,7 @@ const FormComponent = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit} className="space-y-3 2xl:space-y-18 2xl:text-2xl  text-xs sm:text-sm md:text-base lg:text-base">
+      <form onSubmit={handleSubmit} className="space-y-3 3xl:space-y-18 3xl:text-2xl  text-xs sm:text-sm md:text-base lg:text-base">
         <input
           type="text"
           id="full-name"
@@ -121,7 +121,7 @@ const FormComponent = () => {
 const Footer = () => {
   const navigate = useNavigate();
   return (
-    <footer className=" bg-slate-200 px-10 py-12 text-[#4B5685]">
+    <footer className=" bg-slate-200 px-10 py-12 text-[#4B5685] max-w-7xl mx-auto 3xl:max-w-8xl"> 
       <div className="max-w-7xl mx-auto px-4  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
         {/* Left: Logo and Description */}
         <div>

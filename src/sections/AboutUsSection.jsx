@@ -20,7 +20,7 @@ const AboutUsSection = () => {
       <div className=' mb-10' >
         
         <h1 className='text-center text-2xl font-bold mb-2'>About Us</h1>
-          <p className='text-justify md:text-sm xl:text-base 2xl:text-2xl mb-5'>At Global Guideline Consultancy & Migration Services, we believe that education has the power to transform lives and open doors to endless opportunities. As a trusted educational consultancy, we are passionate about helping students achieve their dreams of studying abroad. With years of experience, our team of dedicated professionals provides comprehensive guidance and personalized support to students at every step of their journey — from choosing the right university to securing a visa. </p>
+          <p className='text-justify md:text-sm xl:text-base 3xl:text-2xl mb-5'>At Global Guideline Consultancy & Migration Services, we believe that education has the power to transform lives and open doors to endless opportunities. As a trusted educational consultancy, we are passionate about helping students achieve their dreams of studying abroad. With years of experience, our team of dedicated professionals provides comprehensive guidance and personalized support to students at every step of their journey — from choosing the right university to securing a visa. </p>
           {/* <img
           
             src='/assets/statue of liberty.png'
@@ -42,9 +42,9 @@ const AboutUsSection = () => {
             transition={{ delay: index * 0.5, duration: 1 }}
             viewport={{ once: true, amount:0.5}}
           >
-            <h2 className="text-3xl font-bold">{stat.title}</h2>
-            <h3 className="text-lg lg:text-2xl font-semibold mt-2">{stat.subtitle}</h3>
-            <p className="mt-4 lg:text-xl ">{stat.description}</p>
+            <h2 className="text-2xl 3xl:text-3xl font-bold">{stat.title}</h2>
+            <h3 className="text-lg lg:text-xl 3xl:text-2xl font-semibold mt-2">{stat.subtitle}</h3>
+            <p className="mt-4 lg:text-lg 3xl:text-xl">{stat.description}</p>
           </motion.div>
         ))}
       </div>

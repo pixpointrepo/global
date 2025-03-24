@@ -17,10 +17,10 @@ import { destinations } from "../data/Destinations";
     const screenWidth = useWindowSize();
   
     return (
-      <section id="services" className="md:h-screen py-12 md:pt-4 2xl:pt-12">
+      <section id="services" className="md:h-screen py-12 md:pt-4 3xl:pt-12 ">
         <div className="text-center">
-          <h2 className="text-2xl 2xl:text-4xl font-bold">Choose Your Destination</h2>
-          <p className="text-red-500 2xl:text-2xl mt-2">We'll get you there</p>
+          <h2 className="text-2xl 3xl:text-4xl font-bold">Choose Your Destination</h2>
+          <p className="text-red-500 3xl:text-2xl mt-2">We'll get you there</p>
         </div>
         <Carousel
           className="md:h-[98%]"
@@ -85,16 +85,16 @@ import { destinations } from "../data/Destinations";
             screenWidth>768?
               chunkedDestinations.map((chunk, chunkIndex) => (
                 <div key={chunkIndex} className=" justify-center items-center">
-                  <div className="flex flex-wrap justify-center gap-3 md:gap-x-44 md:gap-y-2 2xl:gap-x-60 mt-6 px-4">
+                  <div className="flex flex-wrap justify-center gap-3 md:gap-x-44 md:gap-y-2 mt-6 px-4">
                     {chunk.map((destination, index) => (
                     <div className="flex flex-col cursor-pointer" onClick={()=>navigate(`/destinations/${destination.id}`)}>
                         <img
                         key={index}
                         src={destination.image}
                         alt={destination.title}
-                        className="h-60 w-48 md:h-48 md:w-48 2xl:h-80 2xl:w-80 object-cover bg-white rounded-lg shadow-lg  hover:shadow-xl transition"
+                        className="h-60 w-48 md:h-48 md:w-48 3xl:h-80 3xl:w-80 object-cover bg-white rounded-lg shadow-lg  hover:shadow-xl transition"
                       />
-                      <h1 className="text-center 2xl:text-3xl font-medium mt-2">{destination.title}</h1>
+                      <h1 className="text-center 3xl:text-3xl font-medium mt-2">{destination.title}</h1>
                     </div>
                       
                     ))}

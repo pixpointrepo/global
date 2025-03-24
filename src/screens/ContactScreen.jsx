@@ -8,7 +8,7 @@ const ContactScreen = () => {
           className=" w-full h-[650px] md:h-full object-cover"
         />
       </div>
-      <div className="relative flex flex-col md:flex-row  2xl:text-2xl bg-[#626C95] md:px-20 py-6">
+      <div className="relative flex flex-col md:flex-row  3xl:text-2xl bg-[#626C95] md:px-20 py-6">
         <div className="flex flex-col flex-1 px-6 md:px-0 text-white ">
           <p className="mb-2">
             Walk into our office for a free consultation on visa process, test
@@ -30,8 +30,8 @@ const ContactScreen = () => {
           </p>
         </div>
 
-        <div className="flex flex-1  2xl:text-2xl">
-          <div className="w-[90%] md:w-[35%] 2xl:h-[600px]  bg-white absolute right-[5%] bottom-[120%] md:right-[8%] md:bottom-[8%] rounded-lg shadow-lg py-8 px-4 md:px-12 ">
+        <div className="flex flex-1  3xl:text-2xl">
+          <div className="w-[90%] md:w-[35%] 3xl:h-[600px]  bg-white absolute right-[5%] bottom-[120%] md:right-[8%] md:bottom-[8%] rounded-lg shadow-lg py-8 px-4 md:px-12 ">
             <h2 className="text-2xl font-bold text-center mb-4">
               Connect With Us
             </h2>

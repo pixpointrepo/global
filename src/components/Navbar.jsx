@@ -17,14 +17,14 @@ const Navbar = () => {
 
   return (
     <nav className="relative bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl 3xl:max-w-8xl w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className=" flex items-center">
             <a href="/">
               <img src="/assets/Globe.png" alt="Logo" className="w-20 h-16" />
             </a>
-            <div className='text-sm md:text-md 2xl:text-xl text-gray-700 font-bold'>
+            <div className='text-sm md:text-md 3xl:text-xl text-gray-700 font-bold'>
               <h1>Global Guideline</h1> 
               <h1>Consultancy</h1>
             </div>

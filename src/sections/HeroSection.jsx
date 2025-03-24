@@ -5,19 +5,19 @@ const HeroSection = () => {
   const navigate = useNavigate();
   return (
     <section className="bg-gray-50 h-screen">
-          <div className=" mx-auto px-4 sm:px-6 lg:px-20 flex flex-col md:flex-row items-center h-full">
+          <div className=" mx-auto px-4 sm:px-6 max-w-7xl 3xl:max-w-8xl w-full  flex flex-col md:flex-row items-center h-full">
             {/* Left Content */}
             <div className="py-20 md:py-0 text-center md:text-left md:w-1/2 space-y-6">
-              <h1 className="text-4xl md:text-5xl 2xl:text-7xl font-extrabold text-gray-800">
+              <h1 className="text-4xl md:text-5xl 3xl:text-7xl font-extrabold text-gray-800">
                 Start your International Journey with Us
               </h1>
-              <p className="text-gray-600 text-lg 2xl:text-3xl leading-relaxed">
+              <p className="text-gray-600 text-lg 3xl:text-3xl leading-relaxed">
                 As one of Nepal's best education consultancy, we help students get
                 into top-tier universities all around the globe.
               </p>
               <a
                 onClick={()=>navigate('/services')}
-                className="inline-flex items-center cursor-pointer 2xl:text-4xl bg-red-500 text-white px-6 py-3 rounded-md shadow hover:bg-red-600 transition text-lg font-medium "
+                className="inline-flex items-center cursor-pointer 3xl:text-4xl bg-red-500 text-white px-6 py-3 rounded-md shadow hover:bg-red-600 transition text-lg font-medium "
               >
                 Start Now
                 <svg
