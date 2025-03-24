@@ -199,7 +199,7 @@ const ContactSection = () => {
   return (
     <section
   id="contact"
-  className={`md:h-screen px-4 sm:px-4 md:px-10 lg:px-12 py-4  ${
+  className={`md:h-screen px-4 sm:px-4 lg:px-12 py-4 max-w-7xl mx-auto 3xl:max-w-8xl border rounded-md  ${
    "bg-[#4B5685] text-black"
   }`}
 >

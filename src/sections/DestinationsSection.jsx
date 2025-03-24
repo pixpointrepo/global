@@ -17,7 +17,7 @@ import { destinations } from "../data/Destinations";
     const screenWidth = useWindowSize();
   
     return (
-      <section id="services" className="md:h-screen py-12 md:pt-4 3xl:pt-12 ">
+      <section id="services" className="md:h-screen py-12 md:pt-4 3xl:pt-12 max-w-7xl mx-auto 3xl:max-w-8xl">
         <div className="text-center">
           <h2 className="text-2xl 3xl:text-4xl font-bold">Choose Your Destination</h2>
           <p className="text-red-500 3xl:text-2xl mt-2">We'll get you there</p>
